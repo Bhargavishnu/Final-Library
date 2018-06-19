@@ -1,0 +1,119 @@
+body{
+  background-image: url(image/backgroung-main.jpg)
+}
+.container.buttonns{
+  background-color: brown;
+}
+#booklibrary{
+  margin: 50px;
+  background-color: transparent;
+  max-width: 50%;
+  width: 50%
+
+}
+.addButton{
+  background-color: transparent;
+  max-width: 50%;
+  height: 100px;
+  margin: 50px;
+}
+.check{
+  margin: 50px;
+  background-color: transparent;
+  max-width: 50%;
+  width: 50%
+}
+
+.container.mainTitle{
+  text-align: center;
+  background-image: url(image/book-horizontal.jpg);
+  height: 118px;
+  color: #D6DBDF;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.6;
+
+}
+
+
+.bookss{
+  /* position: relative;
+    display: inline-block;
+    width: 50%
+    padding-top: 30px; */
+    padding-top: 15px;
+}
+.add{
+  position: relative;
+    display: inline-block;
+    width: 50%
+
+}
+.bookss .toolBooks{
+  visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.bookss:hover .toolBooks{
+  visibility: visible;
+}
+.fas.fa-book{
+  font-size: 18em;
+  background-color: transparent;
+  color: #D6DBDF;
+
+}
+.fas.fa-book-open{
+  font-size: 20em;
+  background-color: transparent;
+  color: #D6DBDF;
+}
+.bookOpen{
+  background-color: transparent;
+}
+.fas.fa-plus-square{
+  font-size: 20em;
+  background-color: transparent;
+  color: #D6DBDF;
+}
+.addButton{
+  background-color: transparent;
+}
+/* .col{
+  position: relative;
+  width: 50%;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 90px;
+} */
+.checkButton{
+  margin-right: 0px;
+  padding-top: 25px;
+}
+.modal-content{
+  color: white;
+ background-image: url(image/modal-back.jpg);
+}
+.btn{
+  background-image: url(image/button-img.jpeg);
+}
+#outBooks{
+  background-image: url(image/in-out-color.jpg);
+  color: white;
+}
+#inBooks{
+  background-image: url(image/in-out-color.jpg);
+  color: white;
+}
