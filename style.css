@@ -1,8 +1,10 @@
 body{
-  background-image: url(image/backgroung-main.jpg)
+  background-image: url(image/backgroung-main.jpg);
+  
 }
 .container.buttonns{
   background-color: brown;
+  
 }
 #booklibrary{
   margin: 50px;
