@@ -9,21 +9,20 @@ body{
 #booklibrary{
   margin: 50px;
   background-color: transparent;
-  max-width: 50%;
-  width: 50%
+  
 
 }
 .addButton{
   background-color: transparent;
   max-width: 50%;
   height: 100px;
-  margin: 50px;
+  margin: auto;
 }
 .check{
-  margin: 50px;
+  
   background-color: transparent;
-  max-width: 50%;
-  width: 50%
+  margin: auto;
+  padding-top: 20px;
 }
 
 .container.mainTitle{
@@ -37,7 +36,10 @@ body{
 
 }
 
-
+div.col.check{
+  width: 355px;
+  height: 345px;;
+}
 .bookss{
   /* position: relative;
     display: inline-block;
@@ -103,6 +105,7 @@ body{
 .checkButton{
   margin-right: 0px;
   padding-top: 25px;
+  max-width: 350px;;
 }
 .modal-content{
   color: white;
@@ -118,4 +121,12 @@ body{
 #inBooks{
   background-image: url(image/in-out-color.jpg);
   color: white;
+}
+#mainCon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  width: 1300px;
+  margin: auto;
 }
